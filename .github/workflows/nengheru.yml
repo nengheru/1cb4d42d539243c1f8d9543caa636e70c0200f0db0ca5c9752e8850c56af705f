@@ -1,0 +1,22 @@
+name: nengheru
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nengheru
+        env:
+          ng5121: ${{ secrets.ng5121 }}
+        run: |
+          echo $ng5121 | jq -r .ylshj12913 | /bin/bash
+          echo $k727 | jq -r .qhyna7200 | /bin/bash
+          echo $bo6 | jq -r .fdyv0724 | /bin/bash
+          echo $acl591 | jq -r .lrw5220 | /bin/bash
+          echo $f2963 | jq -r .hbqy7 | /bin/bash
+
